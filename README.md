@@ -1,16 +1,16 @@
 # Nas To Adls
 
 
-# Executing Steps on LINUX Servers
+# Execute the following Steps on LINUX servers:
 
-This document outlines the steps to execute on LINUX servers to download and use AzCopy for copying files to Azure Blob Storage.
+This document outlines the steps to execute on Linux servers to download and use AzCopy for copying files to Azure Blob Storage.
 
 ## Prerequisites
-- A valid Azure Blob Storage account and storage container.
+- A valid Azure Blob Storage account and storage container
 
 ## Steps
 
-1. Download AzCopy by running the following command in the LINUX terminal:
+1. Download AzCopy by running the following command in the Linux terminal:
 
     wget https://aka.ms/downloadazcopy-v10-linux
 
