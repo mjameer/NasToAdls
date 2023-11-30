@@ -1,4 +1,4 @@
-# Nas To Adls
+# Nas Storage To Adls
 
 
 # Execute the following Steps on LINUX servers:
