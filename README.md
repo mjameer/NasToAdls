@@ -3,7 +3,7 @@
 
 # Execute the following Steps on LINUX servers:
 
-This document outlines the steps to execute on Linux servers to download and use AzCopy for copying files to Azure Blob Storage.
+This document outlines the steps to be executed on Linux servers for NAS to ADLS migration.
 
 ## Prerequisites
 - A valid Azure Blob Storage account and storage container
@@ -28,7 +28,7 @@ This document outlines the steps to execute on Linux servers to download and use
 
 5. Copy files from the local directory `/MyTestDir/` to Azure Blob Storage using the following command:
 
-    ./azcopy cp /MyTestDir/ "https://adls.blob.core.windows.net/mystorage/MyTestDir?sp=rw&st=2023-05-12T16:48:38Z&se=2100-05-13T00:48:38Z&spr=https&sv=2022-11-02&sr=d&sig=kQazdd=1" --recursive=true
+    ./azcopy cp /MyTestDir/ "https://adls.blob.core.windows.net/mystorage/MyTestDir?blobUrl" --recursive=true
 
 
-Note: Replace the `URL` with your own Azure Blob Storage URL.
+Note: Replace the `URL` with your own Azure Blob Storage URL to migrate.
