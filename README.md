@@ -1,7 +1,7 @@
 # Nas Storage To Adls
 
 
-# Execute the following Steps on LINUX servers:
+Execute the following Steps on LINUX servers to migrate Linux data or NAS data into Azure:
 
 This document outlines the steps to be executed on Linux servers for NAS to ADLS migration.
 
